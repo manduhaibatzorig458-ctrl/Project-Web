@@ -1,23 +1,3 @@
-// import { ST } from "@/app/_features/constants";
-
-// export default function PetCard({ pet, onClick }) {
-//   return (
-//     <div onClick={onClick} className="cursor-pointer overflow-hidden rounded-xl border border-[#eadfd3] bg-white transition hover:-translate-y-1">
-//       <div className="flex h-32 items-center justify-center bg-[#fbe6da] bg-cover bg-center text-5xl"
-//         style={pet.img ? { backgroundImage: `url(${pet.img})` } : undefined}>
-//         {!pet.img && "🐾"}
-//       </div>
-//       <div className="p-3">
-//         <b>{pet.name}</b>
-//         <div className="text-sm text-stone-500">{pet.type} · {pet.age ?? "?"} нас · {pet.dist}</div>
-//         <div className="mt-1 text-sm">● {ST[pet.status]}</div>
-//       </div>
-//     </div>
-//   );
-// }
-
-
-
 import { ST } from "@/app/_features/constants";
 
 const BADGE = {

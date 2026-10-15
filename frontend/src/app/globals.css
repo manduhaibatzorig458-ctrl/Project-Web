@@ -16,3 +16,47 @@
 body {
   background-color: #f4efe6;
 }
+
+
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.tbl th {
+  background: #fbf8f2;
+  padding: 0.85rem 1rem;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6b6b60;
+  letter-spacing: 0.02em;
+}
+.tbl td {
+  border-top: 1px solid #f0e8da;
+  padding: 0.85rem 1rem;
+  vertical-align: middle;
+}
+.tbl small {
+  color: #8a8a7e;
+}
+.tbl tr:hover td {
+  background: #fdfbf7;
+}
+
+.btn-r {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  border: 1.5px solid #e4b4b4;
+  background: #fff;
+  padding: 0.55rem 1rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: #b04a4a;
+  transition: all 0.2s;
+}
+.btn-r:hover {
+  background: #fdf0f0;
+}
